@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  description: MyText
+  price: 1.5
+  calories: 1.5
+  belongs_to: 
+
+two:
+  description: MyText
+  price: 1.5
+  calories: 1.5
+  belongs_to: 

@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  date: 2010-11-15
+  custmoter: MyString
+  telephone: MyString
+  address: MyString
+  email: MyString
+
+two:
+  date: 2010-11-15
+  custmoter: MyString
+  telephone: MyString
+  address: MyString
+  email: MyString
