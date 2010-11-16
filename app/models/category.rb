@@ -1,3 +1,5 @@
 class Category < ActiveRecord::Base
-  validates :description, :presence => true
+  has_many :menus
+  
+  validates :title, :presence => true, :uniqueness => true
 end

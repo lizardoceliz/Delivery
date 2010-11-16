@@ -1,8 +1,8 @@
 class CreateItems < ActiveRecord::Migration
   def self.up
     create_table :items do |t|
-      t.menu :belongs_to
-      t.order :belongs_to
+      t.belongs_to :menu
+      t.belongs_to :order
 
       t.timestamps
     end
