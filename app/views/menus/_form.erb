@@ -1,0 +1,26 @@
+<div class="field">
+  <%= f.label :title %> <br />
+  <%= f.text_field :title %>
+</div>
+
+<div class="field">
+  <%= f.label :description %> <br />
+  <%= f.text_area :description %>
+</div>
+
+<div class="field">
+  <%= f.label :price %> <br />
+  <%= f.text_field :price %>
+</div>
+
+<div class="field">
+  <%= f.label :calories %> <br />
+  <%= f.text_field :calories %>
+</div>
+
+<div class="field">
+  <%= f.select ("category_id", Category.all.map {|u| [u.title, u.id]}, :prompt => "(select at category)" )%>
+</div>
+ 		
+  	
+ 	

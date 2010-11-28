@@ -1,0 +1,27 @@
+<%= content_for :menu do %>
+<h1>Menú</h1>
+<%= link_to 'Add Menú',     new_menu_path %> |
+<%= link_to 'Add Category', new_category_path %>
+
+<br>
+<br>
+
+<table>
+<tr>
+<th> title 		 </th>
+<th> description </th>
+<th> price 		 </th>
+<th> calories  	 </th>
+<th> category 	 </th>
+<th> 	         </th>
+<th>  	    	 </th>
+<th>        	 </th>
+</tr>
+
+<%= render @menus %>
+</table>
+<% end %>
+
+<%= content_for :order do %>
+esto es el pedido para el delivery
+<% end %>

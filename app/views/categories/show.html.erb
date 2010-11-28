@@ -1,0 +1,18 @@
+<h1>List of Categories</h1>
+<%= link_to 'Add Category', new_category_path %>
+
+<br>
+<br>
+
+<table>
+<tr>
+<th> title       </th>
+<th> description </th>
+<th> active      </th>
+<th> 	         </th>
+<th>  	    	 </th>
+<th>        	 </th>
+</tr>
+
+<%= render @categories %>
+</table>

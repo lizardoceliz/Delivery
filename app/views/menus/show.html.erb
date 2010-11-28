@@ -1,0 +1,11 @@
+<h1>Showing Menú <b> <%= @menu.title%> </b></h1>
+
+<div class="form-box">
+  <%= form_for [@menu] do |f| %>
+    <%= render :partial => 'form', :locals => {:f => f} %>
+    
+    <div class="actions">
+      <%= link_to 'back', menus_path %>
+    </div>
+  <% end %>
+</div>

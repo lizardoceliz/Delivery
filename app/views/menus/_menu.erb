@@ -1,0 +1,10 @@
+<tr>
+<td> <%= menu.title   	  		   %></td>
+<td> <%= menu.description 		   %></td>
+<td> <%= menu.price  	   		   %></td>
+<td> <%= menu.calories             %></td>
+<td> <%= menu.category.description %></td>
+<td> <%= link_to 'show', [menu] %></td>
+<td> <%= link_to 'edit', [:edit, menu] %></td>
+<td> <%= link_to 'Remove', [menu], :method => :delete, :confirm => "Are you sure?"  %></td>
+</tr>

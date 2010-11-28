@@ -1,0 +1,55 @@
+p {
+	font:10px/20px verdana, arial, helvetica, sans-serif;
+	margin:0px 0px 16px 0px;
+	padding:0px;
+	}
+	
+	
+/* Layout */
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	color:#333;
+	background-color:white;
+	}
+
+#cabecera {
+	margin:40px 0px 30px 0px;
+	padding:0px 0px 0px 0px;	
+	height:14px;
+}
+
+#contenedor {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	}
+
+#menu  {
+	float: left;
+	width: 60%;
+	margin:0px;
+	padding: 0px;
+	line-height:17px;
+	}
+
+/* Galeria */
+ 
+#order {
+	width: 40%;
+	float: left;
+	position:relative;
+}
+	
+/* pruebas */
+
+#menu {
+	background-color:red;
+}
+
+#order {
+	background-color:blue;
+}
+	
